@@ -1,0 +1,1 @@
+console.log("Welcome to K. Jashwitha's Portfolio!");

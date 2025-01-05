@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Home Section */
+.home {
+    text-align: center;
+    margin: 50px 0;
+}
+.home img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+.contact li {
+    margin: 10px 0;
+}
+.contact a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
